@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#42b983">
+  <title>ตารางเวลาเดินรถสองแถว</title>
+  
+  <!-- เชื่อมโยงไฟล์ CSS ของ Bootstrap -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- เชื่อมโยงไฟล์ Manifest สำหรับ PWA -->
+  <link rel="manifest" href="manifest.json">
+  <link href="css/styles.css" rel="stylesheet">
+  <!-- ตั้งค่า Service Worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js').then((registration) => {
+          console.log('Service Worker registered with scope:', registration.scope);
+        }).catch((error) => {
+          console.log('Service Worker registration failed:', error);
+        });
+      });
+    }
+  </script>
+</head>
+<body>
+  <div id="header"></div> <!-- Header จะถูกโหลดที่นี่ -->
+เกี่ยวกับเรา<br>
+ขอบคุณทุกคนที่ติดตาม เว็บเก่าจนมีจำนวนครั้งเข้าดูขึ้นมาถึง 2,000กว่า ตอนนี้ย้ายมาใช้เว็บใหม่ ยังเป็นเว็บชั่วคราวเหมือนเดิมเพิ่มแค่ไม่อยากให้มันรกตา
+เราทำเว็บนี้ขึ้นมาเพื่อรวบรวมและเผยแพร่ข้อมูลการเดินทางด้วยรถโดยสารในจังหวัดอ่างทอง<br> แรงบันดาลใจ 2 อย่าง
+1. จากประสบการณ์ตรง เรารอรถไปรังสิตที่หน้าโรงพยาบาล แต่ไม่มีรถมินิบัสผ่าน รู้ทีหลังว่าเขาไม่วิ่งกลางวันแล้ว<br>
+2. เรานึกถึงอดีตที่มีรถเมล์แดง เมล์ฟ้า และเมลล์สีเนื้อ 2 สาย ถ้าคนทันน่าจะรู้ว่าคือสายไหนกันบ้าง ปัจจุบันหมดยุครถประจำทางแล้ว แต่เราอยากให้มีรถประจำทางเดินทางระหว่างอำเภอได้<br>
+ใครๆต้องมีต้นแบบกันทั้งนั้น ขอบคุณต้นแบบของเรา -Mayday -viabus -moovit -พี่ที่ตั้งกลุ่มผู้โดยสาร รถตู้สายใน<br>
+ขอบคุณ <a href="//urbancreature.co/at-transit/" target="_blank">urban creature</a> ที่เขียนบทความ จริงๆมันมีแค่ เบอร์ qr code เฉยๆ อารมณ์ทางผ่าน
+ถ้าใครสนใจสนับสนุนเวลาซื้อตั๋วรถทัวร์ รถไฟ เครื่องบิน หรือชอบปิ้งออนไลน์ นึกถึงเราแวะกดลิ้งค์ด้านล่าง<br>
+ถ้ามีเงินมากพอหาโปรแกรมเมอร์เขียนแอปขึ้นมาใหม่ พัฒนาฟังก์ชั่นใหม่ๆ โดยเฉพาะฟังก์ชั่น GPS<br>
+<br>
+<br>
+<br>
+Hi, This is introduce myself.
+Hello, everyone! We welcome both foreigner workers and tourists to Ang Thong.
+This platform has been created to collect and share information about local public transport services. You can also find the schedule for mini-buses online
+(some those schedules are out of date).
+We aim to suggest tourist attractions in Ang Thong and provide guidance on how to travel from Ang Thong to key transport hubs of Thailand such as the bus terminal, train station, international airport, and ferry services.
+We plan to add an English version in the near future. Wishing you have a nice trip!
+<br>
+<br>
+ขอขอบคุณ<br>
+<div class="col-md-6"><a href="https://www.flaticon.com/free-icons/minibus" title="minibus icons">
+  Minibus icons created by Freepik - Flaticon
+</a></div>
+  
+  <div class="text-left">สามารถติดต่อเราผ่านทาง</div>
+  <div class="contact-info">      
+      <p>Email: <a href="mailto:contact@at-transit.com">contact@at-transit.com</a></p>
+  </div>
+<iframe src="/partials/footer.html" width="100%" height="290em" frameborder="0"></iframe><!-- Footer จะถูกโหลดที่นี่ -->
+  <!-- เชื่อมโยงไฟล์ JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- เชื่อมโยงไฟล์ JS ของเราเอง -->
+  <script src="js/header-footer.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>

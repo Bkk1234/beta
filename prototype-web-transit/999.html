@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>จุดขึ้นรถ บขส.</title>
+    <!-- รวม Bootstrap 4 CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>#searchform { 	width: 400px;	height: 730px;} </style>
+</head>
+
+<body>
+    <!-- ส่วนของ navbar หรือ header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">at-transit</a>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <!-- คอลัมน์ที่ 1 -->
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">จุดขึ้นรถ บขส. แยกต่างระดับอ่างทอง</h5>
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>หมายเลขสาย</th>
+                                    <th>ชื่อสาย</th>
+                                </tr>
+                            </thead>
+                            <tbody id="routesTable">
+                                <!-- ข้อมูลจะแสดงที่นี่ -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- คอลัมน์ที่ 2 (สำหรับเนื้อหาหรือฟีเจอร์อื่น) -->
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">จองตั๋วรถ บขส. ออนไลน์ผ่านระบบ BusX</h5>
+                        <iframe  id="searchform" src="https://bus-tickets.busx.com/widget?appkey=17ec346d331d59de29d8c7ed7891da8e&locale=th_TH" width="400" height="750" frameborder="0" scrolling="no"></iframe>
+                        <img src="/images/tcl999-angthong.jpg" alt="Bus Image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- รวม jQuery และ Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> <!-- ใช้ jQuery เวอร์ชั่นเต็ม -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- รวมไฟล์ JS ของคุณ -->
+    <script src="js/999.js"></script>
+</body>
+
+</html>

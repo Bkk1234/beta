@@ -1,0 +1,18 @@
+#slideshow-footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .footer-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .footer-image:hover {
+    transform: scale(1.1);
+  }

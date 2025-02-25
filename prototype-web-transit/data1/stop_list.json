@@ -1,0 +1,122 @@
+[
+  {
+    "highway": "0033",
+    "control_section": "0201",
+    "road_name": "บาง - ป่าโมก",
+    "km_position": "33+290",
+    "direction": "ขวาทาง",
+    "shelter_type": "ศาลาทรงไทย 4 เสา",
+    "latitude": 14.5028966659,
+    "longitude": 100.4273789391,
+    "route_id": [],
+    "image_path": ""
+  },
+  {
+    "highway": "0033",
+    "control_section": "0201",
+    "road_name": "บาง - ป่าโมก",
+    "km_position": "36+020",
+    "direction": "ซ้ายทาง",
+    "shelter_type": "ศาลาทรงไทย 4 เสา",
+    "latitude": 14.4977167095,
+    "longitude": 100.4520314564,
+    "route_id": ["101","15"],
+    "image_path": ""
+  },
+  {
+    "highway": "0033",
+    "control_section": "0201",
+    "road_name": "บาง - ป่าโมก",
+    "km_position": "36+020",
+    "direction": "ขวาทาง",
+    "shelter_type": "ศาลาทรงไทย 4 เสา",
+    "latitude": 14.4977167095,
+    "longitude": 100.4520314564,
+    "route_id": ["101","15"],
+    "image_path": ""
+  },
+  {
+    "highway": "0309",
+    "control_section": "0201",
+    "road_name": "บางเลน - แยกท่าต้น",
+    "km_position": "39+321",
+    "direction": "ซ้ายทาง",
+    "shelter_type": "ศาลาทรงไทย 4 เสา",
+    "latitude": 14.4517118768,
+    "longitude": 100.4718710667,
+    "route_id": ["15", "101"],
+    "image_path": ""
+  },
+  {
+    "highway": "0309",
+    "control_section": "0201",
+    "road_name": "บางเลน - แยกท่าต้น",
+    "km_position": "39+324",
+    "direction": "ซ้ายทาง",
+    "shelter_type": "ศาลาทรงไทย 4 เสา",
+    "latitude": 14.4588168695,
+    "longitude": 100.4679613527,
+    "route_id": ["15", "101"],
+    "image_path": ""
+  },
+  {
+    "highway": "0309",
+    "control_section": "0201",
+    "road_name": "บางเลน - แยกท่าต้น",
+    "km_position": "40+337",
+    "direction": "ซ้ายทาง",
+    "shelter_type": "ศาลาทรงไทย 4 เสา",
+    "latitude": 14.4668087463,
+    "longitude": 100.4634935064,
+    "route_id": ["15", "101"],
+    "image_path": ""
+  },
+  {
+    "highway": "0309",
+    "control_section": "0201",
+    "road_name": "บางเลน - แยกท่าต้น",
+    "km_position": "40+677",
+    "direction": "ซ้ายทาง",
+    "shelter_type": "ศาลาทรงไทย 4 เสา",
+    "latitude": 14.4698772872,
+    "longitude": 100.4609170572,
+    "route_id": ["15", "101"],
+    "image_path": ""
+  },
+  {
+    "highway": "0309",
+    "control_section": "0201",
+    "road_name": "บางเลน - แยกท่าต้น",
+    "km_position": "41+785",
+    "direction": "ซ้ายทาง",
+    "shelter_type": "ศาลาทรงไทย 4 เสา",
+    "latitude": 14.4781970701,
+    "longitude": 100.4571230422,
+    "route_id": ["15", "101"],
+    "image_path": ""
+  },
+  {
+    "highway": "0309",
+    "control_section": "0201",
+    "road_name": "บางเลน - แยกท่าต้น",
+    "km_position": "42+110",
+    "direction": "ขวาทาง",
+    "shelter_type": "ศาลาทรงไทย 4 เสา",
+    "latitude": 14.4807568703,
+    "longitude": 100.4556989557,
+    "route_id": ["15", "101"],
+    "image_path": ""
+  },
+  {
+    "highway": "0309",
+    "control_section": "0201",
+    "road_name": "บางเลน - แยกท่าต้น",
+    "km_position": "42+542",
+    "direction": "ขวาทาง",
+    "shelter_type": "ศาลาทรงไทย 4 เสา",
+    "latitude": 14.4818430808,
+    "longitude": 100.4550955488,
+    "route_id": ["15", "101"],
+    "image_path": ""
+  }
+]

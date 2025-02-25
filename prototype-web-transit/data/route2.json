@@ -1,0 +1,27 @@
+[
+    {
+        "route": "2",
+        "station": "A",
+        "time": "07:00"
+    },
+    {
+        "route": "2",
+        "station": "B",
+        "time": "07:10"
+    },
+    {
+        "route": "2",
+        "station": "A",
+        "time": "07:20"
+    },
+    {
+        "route": "2",
+        "station": "B",
+        "time": "02:50"
+    },
+    {
+        "route": "2",
+        "station": "B",
+        "time": "03:30"
+    }
+]

@@ -1,0 +1,25 @@
+<div class="container">
+    <h1 class="text-center">ตารางเวลาทั้งหมด</h1>
+
+    <!-- Dropdown เลือกสาย -->
+    <div class="form-group">
+      <label for="routeSelect">สายรถประจำทาง:</label>
+      <select id="routeSelect" class="form-control">
+        <option value="">กำลังโหลด...</option>
+      </select>
+
+    <!-- ข้อความแสดงเตือน -->
+    <div id="message" class="alert alert-warning" style="display: none;"></div>
+
+  </div>
+
+    <!-- พื้นที่แสดงตารางเวลา -->
+    <div id="scheduleInfoAllTime"></div>
+  </div>
+</div>
+  <!-- เชื่อมโยง JS -->
+  <script src="js/allSchedule.js"></script>
+  <script src="js/dropdown-time.js"></script>
+  <script src="js/scheduleControl.js"></script> <!-- ฟังก์ชันควบคุมการเลือก -->
+
+

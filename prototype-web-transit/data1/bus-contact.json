@@ -1,0 +1,175 @@
+{
+  "routes": [
+    {
+      "route_id": "101",
+      "route_name": "101 อ่างทอง-ป่าโมก-อยุธยา",
+      "contact": {
+        "phone": ["+6664 963 9025"],
+        "web_url": ["N/A"],
+        "text_line":["บขส.อ่างทอง","สถานีขนส่งอำเภอป่าโมก","จุดขึ้นลงรถสองแถว 101 อยุธยา-ป่าโมก-อ่างทอง"],
+        "vehicle": "/vehicle/101-car.jpeg",
+        "qr_code_path": "/qrcode/101.png",
+        "linked_routes": ["15"]
+      },
+      "destination": ["เทศบาลตำบลโพสะ","โรงพยาบาลอ่างทอง","วิทยาลัยนาฏศิลป์อ่างทอง","ที่ว่าการอำเภอป่าโมก","สำนักงานที่ดินจังหวัดอ่างทอง"]
+    },
+    {
+      "route_id": "902",
+      "route_name": "902 กรุงเทพ-อ่างทอง สายเอเซีย",
+      "contact": {
+        "phone": ["+6684 337 7376","+6662 381 5828"],
+        "web_url": "https://www.facebook.com/profile.php?id=100063523693753",
+        "text_line":["บขส.อ่างทอง","กินซ่า รังสิต","สถานีเดินรถโดยสารขนาดเล็ก (จตุจักร) รถตู้/มินิบัส"],
+        "vehicle": "/vehicle/902-car.jpg",
+        "qr_code_path": "/qrcode/902.png"
+        
+      },
+      "destination": ["โรงเรียนปัทมโรจน์วิทยาคม"]
+    },
+    {
+      "route_id": "15",
+      "route_name": "15 กรุงเทพ-อ่างทอง สายใน",
+      "contact": {
+        "phone": ["+6693 249 5788"],
+        "web_url": "https://www.facebook.com/groups/1355821444815052",
+        "text_line":["บขส.อ่างทอง","สถานีขนส่งอำเภอป่าโมก","ตลาดเจ้าพรหม","ท่ารถตู้ต่างจังหวัดรังสิต","สถานีเดินรถโดยสารขนาดเล็ก (จตุจักร) รถตู้/มินิบัส"],
+        "vehicle": "/vehicle/15-car.jpg",
+        "qr_code_path": "/qrcode/15.JPG"
+      },
+ "destination": ["เทศบาลตำบลโพสะ","โรงพยาบาลอ่างทอง","วิทยาลัยนาฏศิลป์อ่างทอง","ที่ว่าการอำเภอป่าโมก","สำนักงานที่ดินจังหวัดอ่างทอง"]
+      
+    },
+    {
+      "route_id": "2231",
+      "route_name": "2231 อ่างทอง-มหานาม",
+      "contact": {
+        "phone": ["N/A"],
+        "web_url": "N/A",
+        "text_line":["บขส.อ่างทอง"],
+        "vehicle": "/vehicle/2231-car.jpg",
+        "qr_code_path": "N/A"
+        
+      },
+      "destination": ["โรงเรียนปัทมโรจน์วิทยาคม","โรงเรียนบ้านชะไว(ชวลิตวิทยาคาร)"]
+    },
+    {
+      "route_id": "641",
+      "route_name": "641 อ่างทอง-บ้านแพรก-ลพบุรี",
+      "contact": {
+        "phone": ["+6689 084 2136"],
+        "web_url": "N/A",
+        "text_line":["บขส.อ่างทอง","สถานีขนส่งผู้โดยสารจังหวัดลพบุรี"],
+        "vehicle": "/vehicle/641-car.jpeg",
+        "qr_code_path": "N/A"
+       
+      },
+      "destination": ["โรงเรียนปัทมโรจน์วิทยาคม"]
+    },
+    {
+      "route_id": "324",
+      "route_name": "324 อ่างทอง-วัดพิกุลทอง",
+      "contact": {
+        "phone": ["N/A"],
+        "web_url": "N/A",
+        "text_line":["บขส.อ่างทอง"],
+        "vehicle": "/vehicle/324-car.jpg",
+        "qr_code_path": "N/A"
+        
+      },
+      "destination": ["วัดไชโยวรวิหาร"]
+    },
+    {
+      "route_id": "464",
+      "route_name": "464 สุพรรณ-อ่างทอง-สระบุรี",
+      "contact": {
+        "phone": ["+6699 039 3343","+6692 482 4781"],
+        "web_url": "https://line.me/ti/g2/tXBwCvja_Ign9PlboFugqx_NJWbxVb31J1TSMQ?utm_source=invitation&utm_medium=link_copy&utm_campaign=default",
+        "text_line":["บขส.อ่างทอง","บขส. สุพรรณบุรี ","บขส.สระบุรี"],
+        "vehicle": "/vehicle/464-car.jpeg",
+        "qr_code_path": "/qrcode/464.jpeg"
+        
+      },
+      "destination": ["โรงเรียนปัทมโรจน์วิทยาคม"]
+    },
+    {
+      "route_id": "1011",
+      "route_name": "1011 อ่างทอง-สีบัวทอง",
+      "contact": {
+        "phone": ["+6695 962 3008","+6661 431 2399"],
+        "web_url": "N/A",
+        "text_line":["บขส.อ่างทอง"],
+        "vehicle": "/vehicle/1011-car.jpeg",
+        "qr_code_path": "N/A"
+        
+      },
+      "destination": ["โรงเรียนสตรีอ่างทอง","โรงเรียนโพธิ์ทองจินดามนี"]
+    },
+    {
+      "route_id": "951",
+      "route_name": "951 กรุงเทพ-วิเศษ-สุพรรณ",
+      "contact": {
+        "phone": ["+6686 099 4250"],
+        "web_url": "https://www.facebook.com/groups/1323166441639529",
+        "text_line":["บขส. สุพรรณบุรี ","ท่ารถตู้ต่างจังหวัดรังสิต","สถานีเดินรถโดยสารขนาดเล็ก (จตุจักร) รถตู้/มินิบัส"],
+        "vehicle": "https://gogo.town/wp-content/uploads/2023/04/rangsit-wiset-suphanburi-van-scaled-870x555.jpg",
+        "qr_code_path": "N/A"
+        
+      },
+      "destination": ["โรงเรียนสตรีอ่างทอง","โรงเรียนปัทมโรจน์วิทยาคม"]
+    },
+    {
+      "route_id": "952",
+      "route_name": "952 กรุงเทพ-วิเศษชัยชาญ",
+      "contact": {
+        "phone": ["+6664 238 8698"],
+        "web_url": "N/A",
+        "text_line":["นะโมซุปเปอร์มาร์ท","สายใต้เก่า ปิ่นเกล้า จุดจอดรถตู้"],
+        "vehicle": "/vehicle/952-car.webp",
+        "qr_code_path": "N/A"
+      
+      },
+      "destination": ["MRT บางไผ่","เซนทรัลปิ่นเกล้า"]
+    },
+    {
+      "route_id": "954",
+      "route_name": "954 กรุงเทพ-ท่าช้าง",
+      "contact": {
+        "phone": ["+6690 140 3636"],
+        "web_url": "https://shorturl.asia/Qe0s3",
+        "text_line":["ท่ารถตู้ต่างจังหวัดรังสิต"],
+        "vehicle": "https://gogo.town/wp-content/uploads/2023/04/bangkok-rangsit-angthong-thachang.jpg",
+        "qr_code_path": "N/A"
+
+      },
+      "destination": ["โรงเรียนสตรีอ่างทอง","สามโก้"]
+    },
+    {
+      "route_id": "8",
+      "route_name": "8 กรุงเทพ-สรรคบุรี-ชัยนาท",
+      "contact": {
+        "phone": ["+6656-412264","+6686-4491276","+6688-2716613"],
+        "web_url": "https://linevoom.line.me/user/_ddH8YAybarByo7eVApp-6f0teYGaM0bXI4CLBhE?utm_medium=windows&utm_source=desktop&utm_campaign=OA_Profile",
+        "text_line":["ท่ารถตู้ต่างจังหวัดรังสิต"],
+        "vehicle": "https://gogo.town/wp-content/uploads/2022/06/chainat-bangkok-van8-870x555.jpg",
+        "qr_code_path": "N/A"
+       
+      },
+      "destination": ["โรงเรียนสตรีอ่างทอง","โรงเรียนปัทมโรจน์วิทยาคม"]
+    },
+    {
+      "route_id": "2194",
+      "route_name": "2194 หัวเวียง-อยุธยา",
+      "contact": {
+        "phone": "N/A",
+        "web_url": "N/A",
+        "text_line":["ตลาดเจ้าพรหม"],
+        "vehicle": "https://i1017.photobucket.com/albums/af294/Thaibusspecialistgroup/THAIBUSSPECIALIST%202/DSC_0412.jpg",
+        "qr_code_path": "N/A"
+    
+      },
+      "destination": ["วัดถนน","วัดหัวเวียง"]
+    }
+
+
+  ]
+}

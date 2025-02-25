@@ -1,0 +1,32 @@
+[
+    {
+      "route_code": "3064",
+      "section_code": "0100",
+      "route_name": "อ่างทอง - ปากดง",
+      "kilometer": "3+000",
+      "position": "ชวาทาง",
+      "type": "ที่รอรถประจำทาง",
+      "latitude": 14.6016517229,
+      "longitude": 100.4323316104
+    },
+    {
+      "route_code": "3064",
+      "section_code": "0100",
+      "route_name": "อ่างทอง - ปากดง",
+      "kilometer": "5+050",
+      "position": "ชวาทาง",
+      "type": "ศาลารถรถประจำทาง 4 เสา",
+      "latitude": 14.6125509617,
+      "longitude": 100.4199240358
+    },
+    {
+      "route_code": "3064",
+      "section_code": "0100",
+      "route_name": "อ่างทอง - ปากดง",
+      "kilometer": "5+915",
+      "position": "ชวาทาง",
+      "type": "ศาลารถรถประจำทาง 4 เสา",
+      "latitude": 14.6198599671,
+      "longitude": 100.4171421542
+    }
+  ]

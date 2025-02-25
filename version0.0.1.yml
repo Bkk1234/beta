@@ -1,0 +1,6 @@
+version: '0.1'
+services:
+  nginx:
+    image: at-transit:latest
+    ports:
+      - 8056:80

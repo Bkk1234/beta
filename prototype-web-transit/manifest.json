@@ -1,0 +1,22 @@
+{
+    "name": "ตารางเวลาเดินรถสองแถว",
+    "short_name": "ตารางเดินรถ",
+    "description": "แอปพลิเคชันตารางเวลาเดินรถสองแถว",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#42b983",
+    "start_url": "/",
+    "icons": [
+      {
+        "src": "img/icons/minibus-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "img/icons/minibus-256x256.ico",
+        "sizes": "256x256",
+        "type": "image/ico"
+      }
+    ]
+  }
+  

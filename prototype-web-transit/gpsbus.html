@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#42b983">
+  <title>GPS ติดตามรถ</title>
+
+  <!-- เชื่อมโยงไฟล์ CSS ของ Bootstrap -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- เชื่อมโยงไฟล์ Manifest สำหรับ PWA -->
+  <link rel="manifest" href="manifest.json">
+  <link href="css/styles.css" rel="stylesheet">
+  <!-- ตั้งค่า Service Worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js').then((registration) => {
+          console.log('Service Worker registered with scope:', registration.scope);
+        }).catch((error) => {
+          console.log('Service Worker registration failed:', error);
+        });
+      });
+    }
+  </script>
+</head>
+
+<body>
+  <div id="header"></div> <!-- Header จะถูกโหลดที่นี่ -->
+
+  <!-- Dropdown สำหรับเลือกสาย -->
+  <div class="form-group">
+    <label for="routeSelect">สายรถประจำทาง:</label>
+    <select id="routeSelect" class="form-control">
+      <option value="">กำลังโหลด...</option>
+    </select>
+
+    <!-- ข้อความแสดงเตือน -->
+    <div id="message" class="alert alert-warning" style="display: none;"></div>
+
+  </div>
+
+
+  <label>ฟีเจอร์ในอนาคต</label>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.5886639948314!2d100.45157011532658!3d14.589456080786448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e1074c3bb3729b%3A0xa6a531c9d1d7f0b!2z4Lio4Li54LiZ4LiX4Liy4Lin4Lix4LiX4LiwIOC4quC4teC5gOC4t-C4ueC4mSDguJrguYfguJjguKPguLTguJnguJnguJc!5e0!3m2!1sth!2sth!4v1691313311414!5m2!1sth!2sth"
+    width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+
+  <iframe src="/partials/footer.html"width="100%" height="290em"  frameborder="0"></iframe><!-- Footer จะถูกโหลดที่นี่ -->
+  <!-- เชื่อมโยงไฟล์ JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- เชื่อมโยงไฟล์ JS ของเราเอง -->
+  <script src="js/header-footer.js"></script>
+  <script src="js/dropdown.js"></script>
+
+
+</body>
+
+</html>
