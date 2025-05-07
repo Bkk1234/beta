@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const provinceSelect = document.getElementById('provinceSelect');
   const stationSelect = document.getElementById('stationSelect');
   const contactDiv = document.getElementById('contactInfo');
+  let currentProvince = null;
 
   // โหลดรายชื่อจังหวัดและสถานีขนส่ง ยกเว้นอ่างทอง
   fetch('data1/bus-list.json')
@@ -26,6 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       provinceSelect.addEventListener('change', () => {
         const selectedProvince = provinceSelect.value;
+        currentProvince = selectedProvince; // เก็บจังหวัดที่เลือกไว้
         const provinceData = provinces.find(p => p.province === selectedProvince);
 
         stationSelect.innerHTML = '';
@@ -54,9 +56,13 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('data1/bus-contact.json')
       .then(res => res.json())
       .then(data => {
-        const matchedRoutes = data.routes.filter(route =>
-          route.contact?.text_line?.includes(selectedStation)
-        );
+        const matchedRoutes = data.routes.filter(route => {
+          const textLines = route.contact?.text_line || [];
+          return textLines.includes(selectedStation) ||
+            (selectedStation === 'จุดขึ้นรถประจำทางอื่นๆ' &&
+              textLines.includes('จุดขึ้นรถประจำทางอื่นๆ') &&
+              route.contact?.province === currentProvince);
+        });
 
         if (matchedRoutes.length === 0) {
           contactDiv.innerHTML = `<div class="alert alert-warning">ไม่พบสายรถที่ผ่าน "${selectedStation}"</div>`;
@@ -141,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function showAllTimes(routeId, stationName) {
-  fetch(`data1/timetable/${routeId}.json`)
+  fetch(`data1/${routeId}.json`)
     .then(res => res.json())
     .then(data => {
       const all = data.routes.filter(r => {
