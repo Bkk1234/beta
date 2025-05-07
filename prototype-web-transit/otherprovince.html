@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#42b983">
+  <title>สถานีขนส่งผู้โดยสารภายในจังหวัดอ่างทอง</title>
+
+  <!-- เชื่อมโยงไฟล์ CSS ของ Bootstrap -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- เชื่อมโยงไฟล์ Manifest สำหรับ PWA -->
+  <link rel="manifest" href="manifest.json">
+  <link href="css/styles.css" rel="stylesheet">
+
+  <!-- ตั้งค่า Service Worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js').then((registration) => {
+          console.log('Service Worker registered with scope:', registration.scope);
+        }).catch((error) => {
+          console.log('Service Worker registration failed:', error);
+        });
+      });
+    }
+  </script>
+</head>
+
+<body>
+  <div id="header"></div> <!-- Header จะถูกโหลดที่นี่ -->
+  
+    
+
+  <div class="container mt-4">
+    <h1 class="mb-4 text-center">สถานีขนส่งผู้โดยสาร</br>จังหวัดใกล้เคียง</h1>
+  
+    <!-- Dropdown จังหวัด -->
+    <div class="form-group">
+      <label for="provinceSelect">เลือกจังหวัด</label>
+      <select id="provinceSelect" class="form-control"></select>
+    </div>
+  
+    <!-- Dropdown สถานี -->
+    <div class="form-group">
+      <label for="stationSelect">เลือกสถานี</label>
+      <select id="stationSelect" class="form-control"></select>
+    </div>
+  
+    <!-- แสดงผลข้อมูล -->
+    <div id="contactInfo" class="mt-4"></div>
+  </div>
+    
+  
+ 
+
+  <div id="footer"></div> <!-- footer จะถูกโหลดที่นี่ -->
+  <!-- ส่วนป๊อปอัพ -->
+
+<div class="popup-overlay" id="popup">
+  <div class="popup-content">
+    <a href="https://affiliate-link-example.com" target="_blank">
+      <img src="https://via.placeholder.com/300x200" alt="Affiliate Banner">
+    </a></br>
+    <button class="close-btn" onclick="closePopup()">Close</button>
+  </div>
+</div>
+
+
+
+
+  <!-- เชื่อมโยงไฟล์ JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- เชื่อมโยงไฟล์ JS ของเราเอง -->
+  <script src="js/999.js"></script>
+  <script src="js/header-footer.js"></script>
+  <script src="js/dropdown-buslist2.js"></script>
+  <script src="js/affscripts.js"></script>
+  <script src="js/main-contact.js"></script>
+
+</body>
+
+</html>
