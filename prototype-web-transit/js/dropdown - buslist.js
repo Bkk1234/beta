@@ -1,5 +1,5 @@
-// ดึงข้อมูลจาก bus-contact.json และเติม dropdown
-fetch('data1/bus-contact.json')
+// ดึงข้อมูลจาก bus-list.json และเติม dropdown
+fetch('data1/bus-list.json')
   .then(response => {
     if (!response.ok) {
       throw new Error('เกิดข้อผิดพลาดในการโหลดไฟล์ JSON');
