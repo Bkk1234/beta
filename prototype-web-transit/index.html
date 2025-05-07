@@ -30,26 +30,18 @@
 
 <body>
   <div id="header"></div> <!-- Header จะถูกโหลดที่นี่ -->
-  <div class="container my-5">
-    <h1 class="text-center">สถานีขนส่งผู้โดยสารภายในจังหวัดอ่างทอง</h1>
+  
+    
 
-    <!-- Dropdown สำหรับเลือกสาย -->
-    <div class="form-group">
-      <label for="routeSelect">สถานีขนส่งผู้โดยสาร:</label>
-      <select id="routeSelect" class="form-control">
-        <option value="">กำลังโหลด...</option>
-      </select>
-
-      <!-- ข้อความแสดงเตือน -->
-      <div id="message" class="alert alert-warning" style="display: none;"></div>
-
+    <div class="container mt-4">
+      <h1 class="text-center">สถานีขนส่งผู้โดยสารภายในจังหวัดอ่างทอง</h1>
+      <select id="stationSelect" class="form-control mb-3"></select>
+      <div id="contactInfo" class="mt-3"></div>
     </div>
-
-    <div id="contactInfo" class="mt-4">
-      <!-- ข้อมูลติดต่อจะแสดงที่นี่ -->
-    </div>
-  </div>
-
+    
+    
+  
+ 
 
   <div id="footer"></div> <!-- footer จะถูกโหลดที่นี่ -->
   <!-- ส่วนป๊อปอัพ -->
@@ -72,10 +64,12 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
   <!-- เชื่อมโยงไฟล์ JS ของเราเอง -->
+  <script src="js/999.js"></script>
   <script src="js/header-footer.js"></script>
-  <script src="js/main-contact.js"></script>
-  <script src="js/dropdown - buslist.js"></script>
+  <script src="js/dropdown-buslist.js"></script>
   <script src="js/affscripts.js"></script>
+  <script src="js/main-contact.js"></script>
+
 </body>
 
 </html>

@@ -6,9 +6,9 @@
       "contact": {
         "phone": ["+6664 963 9025"],
         "web_url": ["N/A"],
-        "text_line":["บขส.อ่างทอง","สถานีขนส่งอำเภอป่าโมก","จุดขึ้นลงรถสองแถว 101 อยุธยา-ป่าโมก-อ่างทอง"],
-        "vehicle": "/vehicle/101-car.jpeg",
-        "qr_code_path": "/qrcode/101.png",
+        "text_line":["บขส.อ่างทอง","สถานีขนส่งป่าโมก","จุดขึ้นลงรถสองแถว 101 อยุธยา-ป่าโมก-อ่างทอง","ตลาดเจ้าพรหม"],
+        "vehicle": "vehicle/101-car.jpeg",
+        "qr_code_path": "qrcode/101.png",
         "linked_routes": ["15"]
       },
       "destination": ["เทศบาลตำบลโพสะ","โรงพยาบาลอ่างทอง","วิทยาลัยนาฏศิลป์อ่างทอง","ที่ว่าการอำเภอป่าโมก","สำนักงานที่ดินจังหวัดอ่างทอง"]
@@ -20,8 +20,8 @@
         "phone": ["+6684 337 7376","+6662 381 5828"],
         "web_url": "https://www.facebook.com/profile.php?id=100063523693753",
         "text_line":["บขส.อ่างทอง","กินซ่า รังสิต","สถานีเดินรถโดยสารขนาดเล็ก (จตุจักร) รถตู้/มินิบัส"],
-        "vehicle": "/vehicle/902-car.jpg",
-        "qr_code_path": "/qrcode/902.png"
+        "vehicle": "vehicle/902-car.jpg",
+        "qr_code_path": "qrcode/902.png"
         
       },
       "destination": ["โรงเรียนปัทมโรจน์วิทยาคม"]
@@ -32,9 +32,9 @@
       "contact": {
         "phone": ["+6693 249 5788"],
         "web_url": "https://www.facebook.com/groups/1355821444815052",
-        "text_line":["บขส.อ่างทอง","สถานีขนส่งอำเภอป่าโมก","ตลาดเจ้าพรหม","ท่ารถตู้ต่างจังหวัดรังสิต","สถานีเดินรถโดยสารขนาดเล็ก (จตุจักร) รถตู้/มินิบัส"],
-        "vehicle": "/vehicle/15-car.jpg",
-        "qr_code_path": "/qrcode/15.JPG"
+        "text_line":["บขส.อ่างทอง","สถานีขนส่งป่าโมก","ตลาดเจ้าพรหม","ท่ารถตู้ต่างจังหวัดรังสิต","สถานีเดินรถโดยสารขนาดเล็ก (จตุจักร) รถตู้/มินิบัส"],
+        "vehicle": "vehicle/15-car.jpg",
+        "qr_code_path": "qrcode/15.JPG"
       },
  "destination": ["เทศบาลตำบลโพสะ","โรงพยาบาลอ่างทอง","วิทยาลัยนาฏศิลป์อ่างทอง","ที่ว่าการอำเภอป่าโมก","สำนักงานที่ดินจังหวัดอ่างทอง"]
       
@@ -46,7 +46,7 @@
         "phone": ["N/A"],
         "web_url": "N/A",
         "text_line":["บขส.อ่างทอง"],
-        "vehicle": "/vehicle/2231-car.jpg",
+        "vehicle": "vehicle/2231-car.jpg",
         "qr_code_path": "N/A"
         
       },
@@ -58,8 +58,8 @@
       "contact": {
         "phone": ["+6689 084 2136"],
         "web_url": "N/A",
-        "text_line":["บขส.อ่างทอง","สถานีขนส่งผู้โดยสารจังหวัดลพบุรี"],
-        "vehicle": "/vehicle/641-car.jpeg",
+        "text_line":["บขส.อ่างทอง","บขส.ลพบุรี"],
+        "vehicle": "vehicle/641-car.jpeg",
         "qr_code_path": "N/A"
        
       },
@@ -71,8 +71,8 @@
       "contact": {
         "phone": ["N/A"],
         "web_url": "N/A",
-        "text_line":["บขส.อ่างทอง"],
-        "vehicle": "/vehicle/324-car.jpg",
+        "text_line":["บขส.อ่างทอง","จุดขึ้นรถประจำทางอื่นๆ"],
+        "vehicle": "vehicle/324-car.jpg",
         "qr_code_path": "N/A"
         
       },
@@ -85,8 +85,8 @@
         "phone": ["+6699 039 3343","+6692 482 4781"],
         "web_url": "https://line.me/ti/g2/tXBwCvja_Ign9PlboFugqx_NJWbxVb31J1TSMQ?utm_source=invitation&utm_medium=link_copy&utm_campaign=default",
         "text_line":["บขส.อ่างทอง","บขส. สุพรรณบุรี ","บขส.สระบุรี"],
-        "vehicle": "/vehicle/464-car.jpeg",
-        "qr_code_path": "/qrcode/464.jpeg"
+        "vehicle": "vehicle/464-car.jpeg",
+        "qr_code_path": "qrcode/464.jpeg"
         
       },
       "destination": ["โรงเรียนปัทมโรจน์วิทยาคม"]
@@ -97,8 +97,8 @@
       "contact": {
         "phone": ["+6695 962 3008","+6661 431 2399"],
         "web_url": "N/A",
-        "text_line":["บขส.อ่างทอง"],
-        "vehicle": "/vehicle/1011-car.jpeg",
+        "text_line":["บขส.อ่างทอง","จุดขึ้นรถประจำทางอื่นๆ"],
+        "vehicle": "vehicle/1011-car.jpeg",
         "qr_code_path": "N/A"
         
       },
@@ -110,7 +110,7 @@
       "contact": {
         "phone": ["+6686 099 4250"],
         "web_url": "https://www.facebook.com/groups/1323166441639529",
-        "text_line":["บขส. สุพรรณบุรี ","ท่ารถตู้ต่างจังหวัดรังสิต","สถานีเดินรถโดยสารขนาดเล็ก (จตุจักร) รถตู้/มินิบัส"],
+        "text_line":["บขส. สุพรรณบุรี ","ท่ารถตู้ต่างจังหวัดรังสิต","สถานีเดินรถโดยสารขนาดเล็ก (จตุจักร) รถตู้/มินิบัส","จุดขึ้นรถประจำทางอื่นๆ"],
         "vehicle": "https://gogo.town/wp-content/uploads/2023/04/rangsit-wiset-suphanburi-van-scaled-870x555.jpg",
         "qr_code_path": "N/A"
         
@@ -123,8 +123,8 @@
       "contact": {
         "phone": ["+6664 238 8698"],
         "web_url": "N/A",
-        "text_line":["นะโมซุปเปอร์มาร์ท","สายใต้เก่า ปิ่นเกล้า จุดจอดรถตู้"],
-        "vehicle": "/vehicle/952-car.webp",
+        "text_line":["นะโมซุปเปอร์มาร์ท","สายใต้เก่า ปิ่นเกล้า จุดจอดรถตู้","จุดขึ้นรถประจำทางอื่นๆ"],
+        "vehicle": "vehicle/952-car.jpg",
         "qr_code_path": "N/A"
       
       },
@@ -136,7 +136,7 @@
       "contact": {
         "phone": ["+6690 140 3636"],
         "web_url": "https://shorturl.asia/Qe0s3",
-        "text_line":["ท่ารถตู้ต่างจังหวัดรังสิต"],
+        "text_line":["ท่ารถตู้ต่างจังหวัดรังสิต","จุดขึ้นรถประจำทางอื่นๆ"],
         "vehicle": "https://gogo.town/wp-content/uploads/2023/04/bangkok-rangsit-angthong-thachang.jpg",
         "qr_code_path": "N/A"
 
@@ -149,7 +149,7 @@
       "contact": {
         "phone": ["+6656-412264","+6686-4491276","+6688-2716613"],
         "web_url": "https://linevoom.line.me/user/_ddH8YAybarByo7eVApp-6f0teYGaM0bXI4CLBhE?utm_medium=windows&utm_source=desktop&utm_campaign=OA_Profile",
-        "text_line":["ท่ารถตู้ต่างจังหวัดรังสิต"],
+        "text_line":["ท่ารถตู้ต่างจังหวัดรังสิต","จุดขึ้นรถประจำทางอื่นๆ"],
         "vehicle": "https://gogo.town/wp-content/uploads/2022/06/chainat-bangkok-van8-870x555.jpg",
         "qr_code_path": "N/A"
        
@@ -162,8 +162,21 @@
       "contact": {
         "phone": "N/A",
         "web_url": "N/A",
-        "text_line":["ตลาดเจ้าพรหม"],
+        "text_line":["ตลาดเจ้าพรหม","จุดขึ้นรถประจำทางอื่นๆ"],
         "vehicle": "https://i1017.photobucket.com/albums/af294/Thaibusspecialistgroup/THAIBUSSPECIALIST%202/DSC_0412.jpg",
+        "qr_code_path": "N/A"
+    
+      },
+      "destination": ["วัดถนน","วัดหัวเวียง"]
+    },
+    {
+      "route_id": "999",
+      "route_name": "999 บริษัท ขนส่ง จำกัด",
+      "contact": {
+        "phone": "0-3561-1344",
+        "web_url": "999.html",
+        "text_line":["บขส.999 อ่างทอง สายเอเชีย-เหนือ (ไม่เข้าเมือง)"],
+        "vehicle": "images/tcl999-angthong.jpg",
         "qr_code_path": "N/A"
     
       },
